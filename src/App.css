@@ -1,0 +1,66 @@
+*{margin: 0;padding: 0;font-family:'Lato', sans-serif; font-size: 11px; box-sizing: border-box; font-weight:400; letter-spacing: .4px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+
+/* Header css start */
+
+header{
+    background: #000;
+    text-align: center;
+    display: flex;
+}
+.hcontainer{
+    margin: 0 auto;
+    max-width: 1060px;
+    padding: 5px 0;
+    display: flex;
+    width: 100%;
+}
+.privy_logo{
+    display: flex;
+}
+
+
+
+/* footer css start */
+
+footer{
+    background: #000;
+    text-align: center;
+    border-top: 2px solid #E5C584;
+}
+.fcontainer{
+    margin: 0 auto;
+    max-width: 1060px;
+    padding: 20px 0;
+    display: flex;
+    width: 100%;
+}
+.footer_left{
+    float: left;
+    width: 60%;
+    text-align: left;
+}
+.yatra_logo{
+    height: 25px;
+    margin: 0px 30px -7px 0;
+}
+.footer_left a{
+    text-decoration: none;
+    color: #E5C584;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0 20px;
+}
+.footer_right{
+    float: right;
+    width: 40%;
+}
+.footer_right a{
+    text-decoration: none;
+    color: #E5C584;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0 20px;
+}
+.footer_right a:after{
+    content: '';
+}
