@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import yatra_logo from '../asset/yatra_logo.svg';
+import React from 'react';
+import yatraLogo from '../../assets/images/yatra_logo.svg';
 
-class Footer extends Component {
-  render() {
-    return (
-      <footer className="Footer">
+import Auxiliary from '../../hoc/Auxiliary/Auxiliary';
+
+const footer = () => (
+    <footer className="Footer">
         <div className="fcontainer">
         <div className="footer_left">
-        <img src={yatra_logo} className="yatra_logo" alt="Yatra Logo" />
+        <img src={yatraLogo} className="yatra_logo" alt="Yatra Logo" />
         <a href="term_condition.html">Terms & Conditions</a>
         <a href="privacy_policy">Privacy Policy</a>
         </div>
@@ -17,9 +17,7 @@ class Footer extends Component {
             <a href="https://www.facebook.com/Yatra/" target="_blank" rel="Yatra Facebook" className="facebook">Facebook</a>
         </div>
         </div>
-      </footer>
-    );
-  }
-}
+    </footer>  
+); 
 
-export default Footer;
+export default footer;
