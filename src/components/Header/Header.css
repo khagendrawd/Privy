@@ -1,0 +1,104 @@
+.Header {
+    background: #000;
+    text-align: center;
+    display: flex;
+}
+.HeaderContainer{
+    margin: 0 auto;
+    max-width: 1060px;
+    padding: 5px 0;
+    display: flex;
+    width: 100%;
+}
+.privy_logo{
+    display: flex;
+}
+.HeaderMenu{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.HeaderMenu ul{
+    display: flex;
+}
+.HeaderMenu ul li{
+    display: flex;
+    flex-direction: row;
+    margin: 0 5px;
+}
+.DropDown{
+    color: #E6C685;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 0 15px;
+    cursor: pointer;
+    position: relative;
+}
+.DropDown:after{
+    content: '';
+	border: solid transparent;
+	position: absolute;
+    right: -5px;
+    top:13px;
+	border-top-color: #E6C685;
+	border-width: 5px;
+}
+.DropDown ul{
+    visibility: hidden; /* hides sub-menu */
+  opacity: 0;
+  position: absolute;
+    background: #E6C685;
+  top: 100%;
+  right: -15px;
+  width: 100%;
+    padding: 5px 0;
+    border-radius: 8px;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.DropDown ul:after{
+    content: '';
+	border: solid transparent;
+	position: absolute;
+    right: 10px;
+    top:-10px;
+	border-bottom-color: #E6C685;
+	border-width: 5px;
+}
+.DropDown:hover ul{
+    visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  top: 30px;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; 
+}
+.DropDown ul li{
+    margin: 0;
+    padding: 5px 0;
+}
+.DropDown ul li:first-child{
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.DropDown ul li a{
+    color: #000;
+}
+.Login {
+    background: #E6C685;
+    border-radius: 8px;
+}
+.Login a {
+    color: #000;
+}
+.HeaderMenu ul li a {
+    color: #E6C685;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 0 15px;
+}

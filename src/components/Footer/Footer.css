@@ -1,0 +1,41 @@
+.Footer {
+    background: #000;
+    text-align: center;
+    border-top: 2px solid #E5C584;
+}
+.Container{
+    margin: 0 auto;
+    max-width: 1060px;
+    padding: 20px 0;
+    display: flex;
+}
+.FooterLeft{
+    text-align: left;
+    flex-basis: 60%;
+}
+.YatraLogo{
+    height: 25px;
+    margin: 0px 30px -7px 0;
+}
+.FooterLeft a{
+    text-decoration: none;
+    color: #E5C584;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0 20px;
+}
+.FooterRight{
+    text-align: right;
+    flex-basis: 30%;
+    margin-left: auto;
+}
+.FooterRight a{
+    text-decoration: none;
+    color: #E5C584;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0 20px;
+}
+.FooterRight a:after{
+    content: '';
+}
