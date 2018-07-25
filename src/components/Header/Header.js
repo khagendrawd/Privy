@@ -3,12 +3,14 @@ import privyLogo from '../../assets/images/privy-logo.png';
 
 import { NavLink } from 'react-router-dom';
 
+import Button from '../UI/Button/Button';
+
 
 const header = () => (
   <header className='header'>
     <div className='header__container'>
       <img src={privyLogo} className="privy_logo" alt="Privy Logo" />
-      <div className='header__menu'>
+      <nav className='header__nav'>
         <ul>
           <li><a href="">Travel Advisor</a></li>
           <li><a href="">Pursuits</a></li>
@@ -20,9 +22,9 @@ const header = () => (
           </ul>
           </li>
           <li><NavLink to='/about' activeClassName="active">About Us</NavLink></li>
-          <li className='Login'><a href="">Login</a></li>
+          <Button className='btn btn-login'>Login</Button>
         </ul>
-      </div>
+      </nav>
     </div>
   </header>
 );
