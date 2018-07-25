@@ -22,7 +22,7 @@ const header = () => (
           </ul>
           </li>
           <li><NavLink to='/about' activeClassName="active">About Us</NavLink></li>
-          <Button className='btn btn-login'>Login</Button>
+          <Button className='btn btn-primary btn-small btn-login'>Login</Button>
         </ul>
       </nav>
     </div>

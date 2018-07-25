@@ -1,3 +1,5 @@
+/***** Button General Styling *****/
+
 .btn {
     display: inline-block;
     font-family: inherit;
@@ -18,13 +20,26 @@
     }
 }
 
-.btn-login {
+/***** Button Themes *****/
+
+.btn-primary {
     background-color: #e6c685;
     color: #16002E;
-    font-size: 1.8rem;
-    width: 7rem;
-    height: 3rem;
 }
+
+/***** Button Sizes *****/
+
+.btn-small { padding: .8rem 1.5rem; }
+.btn-large { padding: 1.5rem 2.5rem; }
+
+/***** Button Specific Styling *****/
+
+.btn-login { font-size: 1.4rem; }
+
+.btn-cta { font-size: 1.6rem; }
+
+
+/***** Block Size Button *****/
 
 .btn-block {
     width: 100%;
