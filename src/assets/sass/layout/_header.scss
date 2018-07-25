@@ -2,6 +2,8 @@
     background: #000;
     text-align: center;
     display: flex;
+    position: fixed;
+    width: 100%;
 
     &__container {
         margin: 0 auto;
@@ -30,6 +32,15 @@
                     line-height: 30px;
                     text-decoration: none;
                     padding: 0 15px;
+                    
+                }
+            }
+            .Login {
+                background: #E6C685;
+                border-radius: 8px;
+            
+                a {
+                    color: #000;
                 }
             }
         }
@@ -104,12 +115,4 @@
         transform: translateY(0%);
         transition-delay: 0s, 0s, 0.3s; 
     }
-}
-
-.Login {
-    background: #E6C685;
-    border-radius: 8px;
-}
-.Login a {
-    color: #000;
 }

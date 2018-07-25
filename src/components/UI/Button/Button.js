@@ -1,7 +1,7 @@
 import React from 'react';
 
 const button = (props) => (
-    <button {...props}>{props.children}</button>
+    <button {...props} className='primeryButton'>{props.children}</button>
 );
 
 export default button;
