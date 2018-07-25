@@ -1,0 +1,21 @@
+@import "../src/assets/sass/abstracts/functions";
+@import "../src/assets/sass/abstracts/mixins";
+@import "../src/assets/sass/abstracts/variables";
+
+@import "../src/assets/sass/base/animation";
+@import "../src/assets/sass/base/base";
+@import "../src/assets/sass/base/typography";
+@import "../src/assets/sass/base/utilities";
+
+@import "../src/assets/sass/components/button";
+
+@import "../src/assets/sass/layout/footer";
+@import "../src/assets/sass/layout/header";
+@import "../src/assets/sass/layout/navigation";
+
+@import "../src/assets/sass/pages/home";
+
+.YatraLogo{
+    height: 25px;
+}
+
