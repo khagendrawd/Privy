@@ -1,7 +1,7 @@
 import React from 'react';
 import privyLogo from '../../assets/images/privy-logo.png';
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 const header = () => (
@@ -19,7 +19,7 @@ const header = () => (
               <li><a href="">Blog</a></li>
           </ul>
           </li>
-          <li><Link to='/about'>About Us</Link></li>
+          <li><NavLink to='/about' activeClassName="active">About Us</NavLink></li>
           <li className='Login'><a href="">Login</a></li>
         </ul>
       </div>
