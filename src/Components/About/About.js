@@ -13,11 +13,7 @@ const about = () => (
                 <h3>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet.
                 </h3>
-<<<<<<< HEAD
-                <Button className='btn'>Find A Travel Advisor</Button>
-=======
                 <Button className='btn btn-primary btn-large btn-cta'>Find A Travel Advisor</Button>
->>>>>>> 6794c2253822b2a9312a8c96253aa49a966c8666
             </div>
             <div className='about__text'>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
