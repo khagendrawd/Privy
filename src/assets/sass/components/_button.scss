@@ -1,9 +1,32 @@
-.primeryButton{
-    background: #e6c685;
-    font-size: 1.8rem;
-    color: #16002E;
-    padding: 15px 25px;
-    border: none;
-    border-radius: 8px;
+.btn {
+    display: inline-block;
+    font-family: inherit;
+    position: relative;
+    white-space: nowrap;
     cursor: pointer;
+    border-radius: 8px;
+    user-select: none;
+    border: 1px solid transparent;
+
+    transition: color .15s ease-in-out,
+                background-color .15s ease-in-out,
+                border-color .15s ease-in-out,
+                box-shadow .15s ease-in-out;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+.btn-login {
+    background-color: #e6c685;
+    color: #16002E;
+    font-size: 1.8rem;
+    width: 7rem;
+    height: 3rem;
+}
+
+.btn-block {
+    width: 100%;
+    display: block;
 }
