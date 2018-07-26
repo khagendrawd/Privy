@@ -35,4 +35,4 @@ class SimpleSlider extends React.Component {
   }
 }
 
-export default Slider;
+export default SimpleSlider;
