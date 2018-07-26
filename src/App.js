@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Container from './components/Container/Container';
 import About from './components/About/About';
+import Home from './components/Home/Home';
 import './App.scss';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <Header/>
           <Container>
               <Switch>
+                <Route exact path='/' component={Home}/>
                 <Route path='/about' component={About}/>
               </Switch>
           </Container>
