@@ -10,7 +10,36 @@ const gallery = (props) => (
                 <img src={ImagesGallery} alt="gallery" />
                 <div className='taging'>
                     <div className='mediaType'>Image</div>
-                    <div className='content'>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio. </div>
+                    <div className='content'>
+                        { props.type === 'pursuit' ?  <span>8th to 10 July 2018</span> : null }
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className='gallery__item'>
+            <div className='gallery__image'>
+                <img src={ImagesGallery1} alt="gallery" />
+                <div className='taging'>
+                    <div className='mediaType'>Image</div>
+                    <div className='content'>
+                        { props.type === 'pursuit' ?  <span>8th to 10 July 2018</span> : null }
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className='gallery__item'>
+            <div className='gallery__image'>
+                <img src={ImagesGallery} alt="gallery" />
+                <div className='taging'>
+                    <div className='mediaType'>Image</div>
+                    <div className='content'>
+                        { props.type === 'pursuit' ?  <span>8th to 10 July 2018</span> : null }
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -30,7 +59,10 @@ const gallery = (props) => (
                 <img src={ImagesGallery} alt="gallery" />
                 <div className='taging'>
                     <div className='mediaType'>Image</div>
-                    <div className='content'>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio. </div>
+                    <div className='content'>
+                        { props.type === 'pursuit' ?  <span>8th to 10 July 2018</span> : null }
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -40,27 +72,10 @@ const gallery = (props) => (
                 <img src={ImagesGallery1} alt="gallery" />
                 <div className='taging'>
                     <div className='mediaType'>Image</div>
-                    <div className='content'>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio. </div>
-                </div>
-            </div>
-        </div>
-
-        <div className='gallery__item'>
-            <div className='gallery__image'>
-                <img src={ImagesGallery} alt="gallery" />
-                <div className='taging'>
-                    <div className='mediaType'>Image</div>
-                    <div className='content'>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio. </div>
-                </div>
-            </div>
-        </div>
-
-        <div className='gallery__item'>
-            <div className='gallery__image'>
-                <img src={ImagesGallery1} alt="gallery" />
-                <div className='taging'>
-                    <div className='mediaType'>Image</div>
-                    <div className='content'>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio. </div>
+                    <div className='content'>
+                        { props.type === 'pursuit' ?  <span>8th to 10 July 2018</span> : null }
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio.</p>
+                    </div>
                 </div>
             </div>
         </div>

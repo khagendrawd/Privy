@@ -1,0 +1,209 @@
+.details {
+    background: #000;
+    text-align: center;
+
+    &__images{
+        width: 100%;
+        margin: 0 auto 6rem;
+        min-height: 400px;
+        // background: rgba(255,255,255,.1);
+        background: url(./assets/images/about_us.png) no-repeat center center ; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & .gallery__item{
+        min-height: 500px;
+    }
+
+    &__headings{
+        max-width: 1060px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    &__container{
+        max-width: 1060px;
+        margin: 0 auto;
+
+        & .overview{
+
+        }
+    }
+    & .expertTalk{
+        border-top: 2px solid #E5C584;
+        border-bottom: 2px solid #E5C584;
+        width: 100%;
+        
+        &__container{
+            max-width: 1060px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        & .overview{
+            width: 75%;
+        }
+
+        & .expertimage{
+            background: #222;
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    &__itinerary{
+        max-width: 1060px;
+        margin: 0 auto;
+
+        & h2{
+            display: flex;
+            justify-content: space-between;
+
+            & .inclusion_icons{
+                flex: 0 0 20%;
+                display: flex;
+                justify-content: space-between;
+
+                & i{
+                    flex: 0 0 25%;
+                    height: 40px;
+                    width: 40px;
+                    background: url(./assets/images/flight.svg) no-repeat center center ; 
+
+                    &.hotel{
+                        background: url(./assets/images/hotel.svg) no-repeat center center ;
+                    }
+
+                    &.meal{
+                        background: url(./assets/images/meal.svg) no-repeat center center ;
+                    }
+
+                    &.map{
+                        background: url(./assets/images/map.svg) no-repeat center center ;
+                    }
+                }
+            }
+        }
+    }
+    
+    & .itinerary{
+
+        &__itemouter{
+            border: 1px solid #E5C584;
+            flex-flow: column;
+
+            & .fare{
+                border-top: 1px solid #E5C584;
+                display: flex;
+                flex-flow: row;
+                justify-content: space-between;
+
+                &__inner{
+                    flex: 0 0 50%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    & span{
+                        text-align: left;
+                        font-size: 2.5rem;
+                        color: #E5C584;
+                        display: block;
+                    }
+
+                    & .price_numbers{
+                        flex: 1;
+                        font-size: 6rem;
+                        line-height: 5rem;
+                        color: #E5C584;
+                        font-weight: 500;
+
+                        & span{
+                            font-size: 1.6rem;
+                            line-height: 4rem;
+                        }
+                    }
+                }
+                &__tag{
+                    flex: 0 0 5%;
+
+                    &__text{
+                        font-size: 2.5rem;
+                        text-transform: uppercase;
+                        transform: translate(0, 100%) rotate(-90deg);
+                    }
+                }
+            }
+        }
+
+        &__item{
+            display: flex;
+            background: #222;
+            flex-flow: row;
+            justify-content: space-between;
+
+            &__items{
+                flex: 0 0 50%;
+                max-height: 300px;
+                overflow: hidden;
+                position: relative;
+
+                & .item_heading{
+                    font-size:2.5rem;
+                    text-transform: uppercase;
+                    position: absolute;
+                    left: 0;
+                    bottom: 4rem;
+                    text-align: center;
+                    color: #E5C584;
+                    width: 100%;
+                }
+
+                & ul{
+                    display: flex;
+                    flex-flow: column;
+
+                    & li{
+                        text-align: left;
+                        font-size: 1.8rem;
+                        line-height: 2.3rem;
+                        color: #E5C584;
+                        padding-bottom: 1.2rem;
+                        list-style: none;
+                        position: relative;
+
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            left: -2.3rem;
+                            top: .65rem;
+                            width: .8rem;
+                            height: .8rem;
+                            background: #e6c685;
+                            transform: rotate(45deg);
+                        }
+                    }
+                }
+            }
+            & .gradient{
+
+                &::after{
+                    display: block;
+                    position: absolute;
+                    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0,0,0,.2) 100%);
+                    height: 150px;
+                    width: 100%;
+                    content: '';
+                    left: 0;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+}

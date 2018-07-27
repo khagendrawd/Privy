@@ -13,8 +13,8 @@ const header = () => (
       <nav className='header__nav'>
         <ul>
           <li><a href="">Travel Advisor</a></li>
-          <li><a href="">Pursuits</a></li>
-          <li><a href="">Tours</a></li>
+          <li><NavLink to='/pursuits' activeClassName="active">Pursuits</NavLink></li>
+          <li><NavLink to='/tour' activeClassName="active">Tour</NavLink></li>
           <li className='dropdown'>Travel Advisor
             <ul>
               <li><a href="">Gallery</a></li>

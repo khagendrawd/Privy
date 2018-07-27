@@ -64,8 +64,8 @@
 .u-mb-3 { margin-bottom: 1.5rem; }
 .u-mb-4 { margin-bottom: 2rem; }
 .u-mb-5 { margin-bottom: 3rem; }
-.u-mb-6 { margin-bottom: 4rem; }
-.u-mb-7 { margin-bottom: 5rem; }
+.u-mb-6 { margin-bottom: 5rem; }
+.u-mb-7 { margin-bottom: 6rem; }
 
 // Horizontal Centering
 .u-mx-auto { margin: 0 auto; }
@@ -81,6 +81,8 @@
 .u-p-3 { padding: 1.5rem; }
 .u-p-4 { padding: 2rem; }
 .u-p-5 { padding: 3rem; }
+.u-p-6 { padding: 5rem; }
+.u-p-7 { padding: 6rem; }
 
 // Padding top 
 .u-pt-0 { padding-top: 0 !important; }
@@ -89,6 +91,8 @@
 .u-pt-3 { padding-top: 1.5rem; }
 .u-pt-4 { padding-top: 2rem; }
 .u-pt-5 { padding-top: 3rem; }
+.u-pt-6 { padding-top: 5rem; }
+.u-pt-7 { padding-top: 6rem; }
 
 // Padding bottom
 .u-pb-0 { padding-bottom: 0; }
@@ -97,6 +101,8 @@
 .u-pb-3 { padding-bottom: 1.5rem; }
 .u-pb-4 { padding-bottom: 2rem; }
 .u-pb-5 { padding-bottom: 3rem; }
+.u-pb-6 { padding-bottom: 5rem; }
+.u-pb-7 { padding-bottom: 6rem; }
 
 // Padding left
 .pl-0 { padding-left: 0; }
@@ -105,6 +111,8 @@
 .pl-3 { padding-left: 1.5rem; }
 .pl-4 { padding-left: 2rem; }
 .pl-5 { padding-left: 3rem; }
+.pl-6 { padding-left: 5rem; }
+.pl-7 { padding-left: 7rem; }
 
 // Padding right
 .pr-0 { padding-right: 0; }
@@ -113,9 +121,13 @@
 .pr-3 { padding-right: 1.5rem; }
 .pr-4 { padding-right: 2rem; }
 .pr-5 { padding-right: 3rem; }
+.pr-6 { padding-right: 5rem; }
+.pr-7 { padding-right: 7rem; }
 
 .u-text-center { text-align: center; }
 .u-text-uppercase { text-transform: uppercase; }
+.u-text-left { text-align: left; }
+.u-text-right { text-align: right; }
 
 .u-p-relative { position: relative; }
 .u-p-absolute { position: absolute; }  
@@ -124,3 +136,13 @@
 .u-d-block { display: block; }
 .u-d-none { display: none; }
 .u-d-flex { display: flex; }
+
+.bg-black{background: #000;}
+.bg-drkgry{background: #222222;}
+.bg-white{background: #ffffff;}
+.bg-gold{background: #ffffff;}
+.u-height-auto{height: auto;}
+.u-max-height-auto{max-height: none !important;}
+
+.f-d-c{flex-direction: column;}
+.f-d-r{flex-direction:row;}

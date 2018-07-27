@@ -5,6 +5,7 @@ class SimpleSlider extends React.Component {
   render() {
     var settings = {
       dots: true,
+      fade: true,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
@@ -20,15 +21,6 @@ class SimpleSlider extends React.Component {
         </div>
         <div>
           <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
         </div>
       </Slider>
     );

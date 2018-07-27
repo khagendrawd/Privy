@@ -6,18 +6,23 @@ import Footer from './components/Footer/Footer';
 import Container from './components/Container/Container';
 import About from './components/About/About';
 import Home from './components/Home/Home';
+import Pursuits from './components/Pursuits/Pursuits';
+import Detail from './components/Pursuits/Detail';
+import Tour from './components/Tour/Tour';
 import './App.scss';
 
 class App extends Component {
   render() {
     return (
-      
       <div className="App">
         <Header/>
           <Container>
               <Switch>
                 <Route exact path='/' component={Home}/>
                 <Route path='/about' component={About}/>
+                <Route path='/pursuits' component={Pursuits}/>
+                <Route path='/detail' component={Detail}/>
+                <Route path='/tour' component={Tour}/>
               </Switch>
           </Container>
         <Footer/>

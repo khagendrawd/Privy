@@ -14,3 +14,13 @@ body {
     box-sizing: border-box;
     background: #000;
 }
+
+input, textarea, select{
+    border: none;
+
+    &:focus{
+        border:none;
+        box-shadow: none;
+        outline: none;
+    }
+}
