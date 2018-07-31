@@ -9,6 +9,8 @@ import Home from './components/Home/Home';
 import Pursuits from './components/Pursuits/Pursuits';
 import Detail from './components/Pursuits/Detail';
 import Tour from './components/Tour/Tour';
+import Gallery from './components/Gallery-Main/Gallery-Main';
+import TravelAdvisor from './components/Travel-advisor/Travel-advisor';
 import './App.scss';
 
 class App extends Component {
@@ -23,6 +25,8 @@ class App extends Component {
                 <Route path='/pursuits' component={Pursuits}/>
                 <Route path='/detail' component={Detail}/>
                 <Route path='/tour' component={Tour}/>
+                <Route path='/gallery' component={Gallery}/>
+                <Route path='/TravelAdvisor' component={TravelAdvisor}/>
               </Switch>
           </Container>
         <Footer/>

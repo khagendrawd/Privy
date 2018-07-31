@@ -140,9 +140,12 @@
 .bg-black{background: #000;}
 .bg-drkgry{background: #222222;}
 .bg-white{background: #ffffff;}
-.bg-gold{background: #ffffff;}
+.bg-gold{background: #E6C685;}
 .u-height-auto{height: auto;}
 .u-max-height-auto{max-height: none !important;}
+.u-max-width-auto{ flex: 0 0 100% !important}
 
 .f-d-c{flex-direction: column;}
 .f-d-r{flex-direction:row;}
+
+.pb-small{padding-bottom: 5rem !important}

@@ -2,6 +2,27 @@
 
     &__headings{
         max-width: 670px;
-        margin: 0 auto;
+        margin:auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: min-content;
+
+        & h1{
+            color: #fff;
+            font-size: 4.4rem;
+            font-weight: 500;
+        }
+        & h3{
+            color: #fff;
+            font-size: 1.8rem;
+        }
+    }
+
+    &__homeslider{
+        position: relative;
+        max-height: 728px;
     }
 }

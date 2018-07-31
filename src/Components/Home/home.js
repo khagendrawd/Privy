@@ -8,7 +8,8 @@ import SliderHome from '../UI/Slider/SliderHome';
 
 const home = () => (
     <div className='home'>
-        <section className='u-pt-5 u-pb-5 home__sliderHome'>
+        <section className='u-pb-5 d-none home__sliderHome'>
+            <i className='mouse_icon'></i>
             <SliderHome/>
         </section>
         <section className='u-pt-5 u-pb-5'>
@@ -37,7 +38,7 @@ const home = () => (
                 <h3 className='u-pb-5'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet.</h3>
             </div>
             <Gallery/>
-            <Button className='btn btn-primary btn-small btn-login'>Load More</Button>
+            <Button className='btn btn-primary btn-large btn-cta'>Load More</Button>
         </section>
     </div>
 ); 

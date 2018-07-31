@@ -12,12 +12,12 @@ const header = () => (
       <img src={privyLogo} className="privy_logo" alt="Privy Logo" />
       <nav className='header__nav'>
         <ul>
-          <li><a href="">Travel Advisor</a></li>
+          <li><NavLink to='/TravelAdvisor' activeClassName="active">Travel Advisor</NavLink></li>
           <li><NavLink to='/pursuits' activeClassName="active">Pursuits</NavLink></li>
           <li><NavLink to='/tour' activeClassName="active">Tour</NavLink></li>
           <li className='dropdown'>Travel Advisor
-            <ul>
-              <li><a href="">Gallery</a></li>
+            <ul className='u-text-left'>
+              <li><NavLink to='/gallery' activeClassName="active">Gallery</NavLink></li>
               <li><a href="">Blog</a></li>
           </ul>
           </li>

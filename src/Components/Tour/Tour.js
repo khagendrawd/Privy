@@ -14,7 +14,7 @@ const tour = () => (
             <div className='tour__headings'>
                 <h1>Luxury Tour</h1>
                 <h3 className='u-pb-5'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet.</h3>
-                <Button className='btn btn-primary btn-large btn-cta'>Find A Travel Advisor</Button>
+                <Button className='btn btn-primary btn-white btn-large btn-cta'>Find A Travel Advisor</Button>
             </div>
         </div>
 

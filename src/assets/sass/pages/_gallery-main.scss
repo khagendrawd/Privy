@@ -1,13 +1,13 @@
-.pursuits {
+.gallerymain {
     background: #000;
     text-align: center;
 
     &__images{
         width: 100%;
         margin: 0 auto 6rem;
-        min-height: 650px;
+        min-height: 600px;
         // background: rgba(255,255,255,.1);
-        background: url(./assets/images/pursuits.png) no-repeat center center ; 
+        background: url(./assets/images/gallery.png) no-repeat center center ; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -29,17 +29,14 @@
         }
     }
 
-    & .gallery__item{
-        min-height: 500px;
+    & .gallery{
+        //min-height: 500px;
+        margin:-15rem auto 0; 
     }
 
     &__headings{
         max-width: 670px;
-        margin: 0 auto;
+        margin:-5rem auto 0;
         z-index: 1;
-
-        & h3{
-            color: #fff;
-        }
     }
 }

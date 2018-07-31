@@ -140,5 +140,9 @@
         max-width: 670px;
         margin: -10rem auto 0;
         z-index: 1;
+
+        & h3{
+            color: #fff
+        }
     }
 }
